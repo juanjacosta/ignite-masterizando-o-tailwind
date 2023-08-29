@@ -205,5 +205,5 @@ export function Logo(props) {
       </svg>
       <span>Untitled UI</span>
     </strong>
-  );
+  )
 }
