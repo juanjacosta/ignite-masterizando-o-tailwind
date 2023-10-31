@@ -25,8 +25,18 @@ export function SettingsTabs() {
           title="Password"
           isSelected={currentTab === 'tab3'}
         />
-        <TabItem value="tab4" title="Team" isSelected={currentTab === 'tab4'} />
-        <TabItem value="tab5" title="Plan" isSelected={currentTab === 'tab5'} />
+        <TabItem
+          value="tab4"
+          title="Team "
+          isSelected={currentTab === 'tab4'}
+        />
+
+        <TabItem
+          value="tab5"
+          title="Plan "
+          isSelected={currentTab === 'tab5'}
+        />
+
         <TabItem
           value="tab6"
           title="Billing"
