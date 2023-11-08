@@ -159,7 +159,10 @@ export default function Home() {
               </span>
             </label>
 
-            <div></div>
+            <FileInput.Root>
+              <FileInput.Trigger />
+              <FileInput.Control />
+            </FileInput.Root>
           </div>
 
           {/* Form Buttons Container */}
