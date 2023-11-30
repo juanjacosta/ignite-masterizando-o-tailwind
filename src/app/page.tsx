@@ -138,7 +138,13 @@ export default function Home() {
             >
               Timezone
             </label>
-            <div></div>
+            <Select placeholder="Select a timezone...">
+              <SelectItem
+                value="utc8"
+                text="Pacific Standard Time (UTC-08:00)"
+              />
+              <SelectItem value="utc3" text="América São Paulo (UTC-03:00)" />
+            </Select>
           </div>
 
           {/* Form Bio Container */}
